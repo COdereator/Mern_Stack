@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Calibri;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+}
+.logo {
+  font-size: 4vw;
+  font-family: Calibri;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgb(255, 0, 0);
+}
+.content a {
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 0px 15px;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+.register {
+  background-color: rgb(168, 69, 69);
+  height: 88vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.register_left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.register_right form {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.register_right label {
+  font-size: 1.5vw;
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgb(255, 0, 0);
+}
+.register_right input {
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid white;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 4px;
+}
+.register_right input[type="submit"] {
+  width: 54%;
+  font-size: 1.4vw;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px red;
+}
+.register_right form h1 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+::placeholder {
+  color: fff;
+  font-size: 1.2rem;
+}
+.login {
+  height: 88vh;
+  display: flex;
+  width: 100%;
+  background-image: url("../src/assets/Login-Back.webp");
+  background-size: cover;
+  justify-content: start;
+  align-items: center;
+}
+
+.login_right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  background-color: transparent;
+  margin-left: 150px;
+  margin-bottom: 100px;
+}
+.login_right form {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: transparent;
+}
+
+.login_right label {
+  font-size: 1.5vw;
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgb(255, 0, 0);
+  background-color: transparent;
+}
+
+.login_right input {
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid white;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 1.2rem;
+}
+
+.login_right input[type="submit"] {
+  width: 54%;
+  font-size: 1.4vw;
+  margin-top: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  box-shadow: 1px 1px 1px 1px red;
+}
+
+.login_right form h1 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+  margin-left: 6px;
+  background-color: transparent;
+}
+.error h1 {
+  margin-top: 100px;
+  font-size: 20vw;
+  text-align: center;
+}
+
+.login textarea {
+  margin-left: 10px;
+  width: 50%;
+  border: 1px solid white;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.services {
+  border: 2px solid white;
+  height: 400px;
+  width: 23%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.services .img {
+  height: 50%;
+  width: 100%;
+}
+.content11 {
+  margin-top: 10px;
+}
+.content11 > * {
+  font-family: Lucida Sans Unicode;
+  /* font-family: Times New Roman; */
+  width: 85%;
+  margin: auto;
+}
+.content11 p:nth-of-type(4) {
+  text-align: justify;
+}
+
+th {
+  /* border: 3px solid red; */
+  background-color: white;
+  color: #000;
+  padding: 10px;
+  border-radius: 2px;
+}
+td {
+  padding: 5px;
+  border-bottom: 1px solid white;
+  font-size: 1.2rem;
+}
+.table {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+  font-size: 1.5rem;
+}
+.table button {
+  /* background-color: white; */
+  color: #000;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 6px 20px;
+  font-size: 1.2rem;
+ 
+  outline: none;
+}
+.heading h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  border: 1px solid white;
+  width: 50%;
+  margin: auto;
+  text-shadow: 1px 1px 2px red;
+  /* margin-left: 100px; */
+  padding: 10px 0px;
+}
+
